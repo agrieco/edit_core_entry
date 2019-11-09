@@ -3,7 +3,7 @@ Rename Zwave nodes in Home Assistance in a very hacky way.
 
 Don't use this unless you are both crazy and have a clue about Home Assistant's internals.
 
-'''
+```python
 This hack is to replace friendly names and node name for zwave
 devices in Home Assistant.  It hopefully addresses the basic problem of
 renaming all nodes associated with a zwave device- in a very hacky way.
@@ -28,4 +28,4 @@ At a high level- here is the logic to follow to use this:
 -replace core.entity_registry with core.entity_registry.new
 -start HASS
 -cross fingers
-'''
+```
